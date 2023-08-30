@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1p -A | grep -E '[0-9A-Za-z]+/?' | sort -t/ -k2,2
