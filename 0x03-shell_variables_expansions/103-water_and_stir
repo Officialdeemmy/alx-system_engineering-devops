@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$STIR + $WATER" | bc -l | tr '0123456789' 'behlnort'
